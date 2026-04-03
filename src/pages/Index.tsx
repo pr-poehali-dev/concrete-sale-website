@@ -399,7 +399,7 @@ export default function Index() {
               <div className="space-y-6 mb-10">
                 {[
                   { icon: "Phone", label: "Телефон", val: "8 (920) 470-02-00", sub: "Ежедневно с 7:00 до 22:00" },
-                  { icon: "Mail", label: "Email", val: "info@betonpro.ru", sub: "Ответим в течение 1 часа" },
+                  { icon: "Mail", label: "Email", val: "op1@bru-68.ru", sub: "" },
                   { icon: "MapPin", label: "Адрес", val: "Тамбов, ул. Бастионная, 21", sub: "Отгрузка с бетонного завода" },
                 ].map((c, i) => (
                   <div key={i} className="flex gap-4">

@@ -304,9 +304,9 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-4">
               {[
-                { icon: "Truck", title: "Автобетоносмеситель", text: "Собственный парк миксеров объёмом 6–10 м³. Доставка по Москве и Московской области в радиусе 150 км." },
+                { icon: "Truck", title: "Автобетоносмеситель", text: "Собственный парк миксеров объёмом 6–10 м³. Доставка по Тамбову и Тамбовской области в радиусе 150 км." },
                 { icon: "Clock", title: "Время доставки", text: "Стандартная доставка — 2–4 часа с момента оформления заказа. Срочная доставка — от 1 часа (при наличии машины)." },
-                { icon: "MapPin", title: "Зона покрытия", text: "Москва и вся Московская область. Выезд в другие регионы — по согласованию с менеджером." },
+                { icon: "MapPin", title: "Зона покрытия", text: "Тамбов и вся Тамбовская область. Выезд в другие регионы — по согласованию с менеджером." },
                 { icon: "FileText", title: "Документы", text: "Паспорт качества, товарная накладная, счёт-фактура. Все документы передаются водителем при сдаче бетона." },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4 p-5 border border-[#1E2A38] bg-[#111827]">
@@ -326,11 +326,11 @@ export default function Index() {
                 <div className="text-xl font-bold mb-4 text-[#F59E0B]" style={{ fontFamily: "'Oswald', sans-serif" }}>Стоимость доставки</div>
                 <div className="space-y-0">
                   {[
-                    { zone: "Москва (МКАД)", price: "Бесплатно", min: "от 4 м³" },
-                    { zone: "МО до 30 км", price: "2 500 ₽", min: "от 4 м³" },
-                    { zone: "МО до 60 км", price: "4 500 ₽", min: "от 6 м³" },
-                    { zone: "МО до 100 км", price: "7 000 ₽", min: "от 8 м³" },
-                    { zone: "МО до 150 км", price: "по запросу", min: "от 8 м³" },
+                    { zone: "Тамбов (в черте города)", price: "Бесплатно", min: "от 4 м³" },
+                    { zone: "Тамбовская обл. до 30 км", price: "1 800 ₽", min: "от 4 м³" },
+                    { zone: "Тамбовская обл. до 60 км", price: "3 200 ₽", min: "от 6 м³" },
+                    { zone: "Тамбовская обл. до 100 км", price: "5 000 ₽", min: "от 8 м³" },
+                    { zone: "Тамбовская обл. до 150 км", price: "по запросу", min: "от 8 м³" },
                   ].map((z, i) => (
                     <div key={i} className="flex items-center justify-between py-3 border-b border-[#1E2A38] last:border-0">
                       <div className="text-gray-300 text-sm">{z.zone}</div>

@@ -174,7 +174,7 @@ export default function Index() {
               ДЛЯ ЧАСТНЫХ ЛИЦ
             </h1>
             <p className="text-gray-300 text-lg md:text-xl font-light leading-relaxed mb-6 max-w-lg">
-              Производство бетона М100–М400 с доставкой миксером по Москве и области. Паспорт качества с каждой поставкой.
+              Производство бетона М100–М400 с доставкой миксером по Тамбову и области. Паспорт качества с каждой поставкой.
             </p>
             <div className="inline-flex items-center gap-3 bg-[#F59E0B]/15 border border-[#F59E0B]/40 px-5 py-3 mb-8">
               <Icon name="BadgePercent" size={18} className="text-[#F59E0B] flex-shrink-0" />

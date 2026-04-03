@@ -465,7 +465,7 @@ export default function Index() {
             БЕТОН<span className="text-[#F59E0B]">ПРО</span>
           </div>
           <div className="text-gray-500 text-sm">
-            © 2026 БетонПро. Производство и доставка бетона по Москве и МО.
+            © 2026 БетонПро. Производство и доставка бетона по Тамбову и области.
           </div>
           <a href="tel:+74951234567" className="text-[#F59E0B] font-semibold hover:text-[#D97706] transition-colors" style={{ fontFamily: "'Oswald', sans-serif" }}>
             +7 (495) 123-45-67

@@ -400,7 +400,7 @@ export default function Index() {
                 {[
                   { icon: "Phone", label: "Телефон", val: "+7 (495) 123-45-67", sub: "Ежедневно с 7:00 до 22:00" },
                   { icon: "Mail", label: "Email", val: "info@betonpro.ru", sub: "Ответим в течение 1 часа" },
-                  { icon: "MapPin", label: "Адрес", val: "Москва, ул. Промышленная, 12", sub: "Отгрузка с бетонного завода" },
+                  { icon: "MapPin", label: "Адрес", val: "Тамбов, ул. Бастионная, 21", sub: "Отгрузка с бетонного завода" },
                 ].map((c, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 bg-[#F59E0B]/10 flex items-center justify-center">

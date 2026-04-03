@@ -170,8 +170,8 @@ export default function Index() {
             </div>
             <h1 className="text-5xl md:text-7xl font-bold leading-none mb-6 tracking-tight" style={{ fontFamily: "'Oswald', sans-serif" }}>
               БЕТОН<br />
-              <span className="text-[#F59E0B]">ЛЮБОЙ</span><br />
-              МАРКИ
+              <span className="text-[#F59E0B]">ТОЛЬКО</span><br />
+              ДЛЯ ЧАСТНЫХ ЛИЦ
             </h1>
             <p className="text-gray-300 text-lg md:text-xl font-light leading-relaxed mb-6 max-w-lg">
               Производство бетона М100–М400 с доставкой миксером по Москве и области. Паспорт качества с каждой поставкой.

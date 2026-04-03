@@ -132,7 +132,7 @@ export default function Index() {
             style={{ fontFamily: "'Oswald', sans-serif" }}
           >
             <Icon name="Phone" size={14} />
-            +7 (495) 123-45-67
+            8 (920) 470-02-00
           </a>
           <button className="md:hidden text-white" onClick={() => setMobileOpen(!mobileOpen)}>
             <Icon name={mobileOpen ? "X" : "Menu"} size={24} />
@@ -146,7 +146,7 @@ export default function Index() {
               </button>
             ))}
             <a href="tel:+74951234567" className="font-semibold text-[#F59E0B] text-sm" style={{ fontFamily: "'Oswald', sans-serif" }}>
-              +7 (495) 123-45-67
+              8 (920) 470-02-00
             </a>
           </div>
         )}
@@ -468,7 +468,7 @@ export default function Index() {
             © 2026 БетонПро. Производство и доставка бетона по Тамбову и области.
           </div>
           <a href="tel:+74951234567" className="text-[#F59E0B] font-semibold hover:text-[#D97706] transition-colors" style={{ fontFamily: "'Oswald', sans-serif" }}>
-            +7 (495) 123-45-67
+            8 (920) 470-02-00
           </a>
         </div>
       </footer>
